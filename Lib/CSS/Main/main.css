@@ -1,0 +1,35 @@
+/* CSS Document */
+
+
+/* Custom properties
+
+	Base BG Color (Dark) #303030
+
+	Logo Light Green #19d22b
+	Logo Dark Green #19bb2a
+*/
+
+@font-face{
+	font-family: AdobeClean;
+	src: url("../../../Fonts/Adobe Clean.TTF");
+}
+
+
+
+body
+{
+	background-color: #303030;
+	font-family: AdobeClean;
+}
+
+
+/* Copyright notice */
+.copyr
+{
+	color: #19bb2a;
+	
+	position:fixed;bottom:0;
+
+    width:100%;
+    display:block;
+}
