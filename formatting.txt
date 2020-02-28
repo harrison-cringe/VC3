@@ -1,0 +1,33 @@
+For developers only.
+
+**** Folder names should follow the following rules: ****
+
+'ThisIsMyFolder' = good
+'ThisIsMyFolder_2' = good
+
+'thisismyfolder' = bad
+'ThisismyFolder' = bad
+'ThisIsMyFolder2' = bad
+
+********************************************************
+
+**** Variables should follow the following rules: ***
+
+'myVariable' = good
+'myVariable_alt' = good
+
+'MyVariable' = bad
+'myvariable' = bad
+
+***************************************************
+
+**** Functions should follow the following rules: ****
+
+'MyFunction()' = good
+'MyFunction_Alt' = good
+
+'myFunction' = bad
+
+*****************************************************
+
+Thanks.
