@@ -3,7 +3,8 @@
 
 /* Custom properties
 
-	Base BG Color (Dark) #303030
+	Base BG Color #303030
+	Dark BG Color #232323
 
 	Logo Light Green #19d22b
 	Logo Dark Green #19bb2a
@@ -14,6 +15,11 @@
 	src: url("../../../Fonts/Adobe Clean.TTF");
 }
 
+@font-face{
+	font-family: DripIcons;
+	src: url("../../../Fonts/dripicons-v2.ttf");
+}
+
 
 
 body
@@ -22,6 +28,10 @@ body
 	font-family: AdobeClean;
 }
 
+.icons
+{
+	font-family: DripIcons;
+}
 
 /* Copyright notice */
 .copyr
@@ -32,4 +42,30 @@ body
 
     width:100%;
     display:block;
+}
+
+.header img
+{
+	float:left;
+}
+
+.header h2
+{
+	padding-right: 4%;
+	font-size: 50px;
+	padding-top: 30px;
+}
+
+.header h1
+{
+	padding-top: 50px;
+	padding-left: 10%;
+	padding-bottom: 20px;
+	position: relative;
+}
+
+.header
+{
+	background-color: #232323;
+	color: #19bb2a;
 }
