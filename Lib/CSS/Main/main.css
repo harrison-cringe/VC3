@@ -1,6 +1,7 @@
 /* CSS Document */
 
 
+
 /* Custom properties
 
 	Base BG Color #303030
@@ -31,6 +32,8 @@ body
 {
 	background-color: #303030;
 	font-family: AdobeClean;
+	
+	
 }
 
 .icons
@@ -75,18 +78,38 @@ body
 	color: #19bb2a;
 }
 
-.motw
+.container
 {
+	display: flex;
+	
+	flex-direction: row;
+	
+	flex-flow: row;
+	
+	flex-wrap: wrap;
+	
+	float: left;
+}
+
+.panel
+{
+	padding: 1%;
+	margin: 2%;
 	text-align: left;
 	background-color: #232323;
 	color: #19bb2a;
-	float: left;
-	padding: 2%;
 	
-}
-
-.motw h3
-{
-	text-align: center;
+	border-radius: 10px;
+	
 	font-family: AdobeCleanLight;
 }
+
+.panel h1, h2
+{
+	font-family: AdobeClean;
+}
+
+
+
+
+
