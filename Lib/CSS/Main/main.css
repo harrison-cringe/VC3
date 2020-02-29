@@ -7,7 +7,7 @@
 	Dark BG Color #232323
 
 	Logo Light Green #19d22b
-	Logo Dark Green #19bb2a
+	Logo Dark Green #149f23
 */
 
 @font-face{
@@ -36,7 +36,7 @@ body
 /* Copyright notice */
 .copyr
 {
-	color: #19bb2a;
+	color: #149f23;
 	
 	position:fixed;bottom:0;
 
