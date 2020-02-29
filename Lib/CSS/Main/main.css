@@ -16,6 +16,11 @@
 }
 
 @font-face{
+	font-family: AdobeCleanLight;
+	src: url("../../../Fonts/Adobe Clean Light.TTF");
+}
+
+@font-face{
 	font-family: DripIcons;
 	src: url("../../../Fonts/dripicons-v2.ttf");
 }
@@ -68,4 +73,20 @@ body
 {
 	background-color: #232323;
 	color: #19bb2a;
+}
+
+.motw
+{
+	text-align: left;
+	background-color: #232323;
+	color: #19bb2a;
+	float: left;
+	padding: 2%;
+	
+}
+
+.motw h3
+{
+	text-align: center;
+	font-family: AdobeCleanLight;
 }
